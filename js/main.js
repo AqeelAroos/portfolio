@@ -45,6 +45,32 @@ type();
 
 /* ── Project data ───────────────────────────────────── */
 const projectData = {
+  securefy: {
+    cat: 'IoT · Full Stack · Hardware · Firebase',
+    title: 'Securefy',
+    subtitle: 'IoT Smart Locker Management System',
+    year: '2025',
+    desc: [
+      'Full-stack, cloud-connected smart locker platform integrating a React 19 web application with physical ESP32 hardware to enable fully contactless, QR-based locker access. Users book lockers through a real-time web portal, receive encrypted single-use QR tokens for check-in and check-out, and present them at a physical terminal — triggering a solenoid lock via a GPIO relay in under one second.',
+      'Features atomic Firestore transactions to prevent double-bookings, an admin dashboard with live analytics and emergency remote override, email delivery of checkout codes via Nodemailer, and an interactive 3D locker scene built with Three.js on the landing page. Deployed on Vercel (frontend) and Render (backend), with Firebase handling real-time data and authentication.'
+    ],
+    stack: [
+      ['Frontend', 'React 19, Vite, React Router 7, Tailwind CSS 4, Framer Motion, Three.js, React Three Fiber, Drei, Recharts, qrcode.react'],
+      ['Backend', 'Node.js, Express 5, Firebase Admin SDK, Cloud Firestore, Nodemailer (Gmail SMTP)'],
+      ['Database & Auth', 'Firebase Authentication (email/password, role-based), Cloud Firestore (real-time NoSQL, atomic transactions)'],
+      ['Hardware / IoT', 'Arduino C++, ESP32 microcontroller, WiFiManager, ArduinoJson, HTTPClient, solenoid lock + relay module (GPIO control)'],
+      ['DevOps', 'Vercel (frontend CI/CD), Render (Node.js backend), Firebase Cloud'],
+    ],
+    highlights: [
+      'IoT bridge pattern — ESP32 validates QR tokens via Express middleware backed by Firebase Admin SDK, then relays GPIO commands to the hardware',
+      'Atomic Firestore transactions eliminate double-booking under concurrent users',
+      'Dual QR system — separate single-use check-in and check-out tokens prevent replay attacks',
+      'Interactive 3D locker scene with mouse-parallax, hover-to-open door animation, and solenoid LED simulation via React Three Fiber',
+      'Admin dashboard with live analytics, occupancy stats, and emergency remote override'
+    ],
+    live: 'https://www.securefy.online/',
+    github: 'https://github.com/AqeelAroos/Securefy'
+  },
   cvprep: {
     cat: 'AI SaaS · Full Stack · Next.js',
     title: 'CVPrep',
