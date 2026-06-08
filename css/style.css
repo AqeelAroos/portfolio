@@ -393,6 +393,14 @@ nav.scrolled {
 .modal-highlight-item::before { content: '↗'; color: var(--amber); flex-shrink: 0; font-size: .72rem; margin-top: .15rem; }
 .modal-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 
+/* ─── UI PROJECTS ────────────────────────────────────────── */
+#ui-projects {
+  padding: clamp(5rem,10vw,9rem) var(--gap);
+  background: var(--void); position: relative;
+  border-top: 1px solid var(--border);
+}
+#ui-projects .glow { width: 700px; height: 700px; left: -15%; top: 10%; }
+
 /* ─── EXPERIENCE & STUDIES ───────────────────────────────── */
 #experience {
   padding: clamp(5rem,10vw,9rem) var(--gap);

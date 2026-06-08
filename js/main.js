@@ -169,6 +169,58 @@ const projectData = {
     ],
     live: 'https://bubbly-mercy-production-f162.up.railway.app/',
     github: 'https://github.com/AqeelAroos/agile-desk'
+  },
+  ceylonluxe: {
+    cat: 'UI / Frontend · Travel · Multi-page',
+    title: 'Ceylon Luxe',
+    subtitle: 'Luxury Travel Website for Sri Lanka',
+    year: '2025',
+    desc: [
+      'A fully responsive, multi-page luxury travel web application for Sri Lanka, built with a premium editorial aesthetic. Features a cinematic hero with parallax scrolling, animated multi-step booking form, destination and package browsing pages, and a booking confirmation flow.',
+      'Polished micro-interactions delivered via GSAP scroll-triggered animations, page transitions, and timeline sequences. Swiper.js powers the carousel components, with Playfair Display + Montserrat as the editorial type pairing.'
+    ],
+    stack: [
+      ['Markup & Styles', 'HTML5, CSS3 — semantic markup, custom animations'],
+      ['Framework', 'Tailwind CSS — bespoke design system (glassmorphism, staggered grids)'],
+      ['Animation', 'GSAP — scroll-triggered reveals, parallax, page transitions, timeline animations'],
+      ['Components', 'Swiper.js (carousel), Google Fonts — Playfair Display + Montserrat'],
+      ['JavaScript', 'Vanilla JS — multi-step form logic, URL parameter handling, dynamic booking summaries'],
+    ],
+    highlights: [
+      'Cinematic parallax hero with GSAP scroll-triggered reveals throughout',
+      'Animated multi-step booking form with URL parameter handling and dynamic summaries',
+      'Multi-page architecture: destinations, packages, booking, confirmation',
+      'Glassmorphism design system with staggered grid layouts',
+      'Zero dependencies to install — pure static, open directly in browser'
+    ],
+    live: 'https://aqeelaroos.github.io/Ceylon-Luxe/',
+    github: 'https://github.com/AqeelAroos/Ceylon-Luxe'
+  },
+  eleve: {
+    cat: 'UI / Frontend · Luxury Brand · Static',
+    title: 'ELEVÉ Luxury Atelier',
+    subtitle: 'High-End Salon Website — Colombo, Sri Lanka',
+    year: '2025',
+    desc: [
+      'A high-end beauty and wellness salon website for Colombo, Sri Lanka, positioned in the style of luxury fashion houses like Dior and Vogue. Presents the brand as a luxury atelier offering premium hair, colour, and body treatments.',
+      'Visitors can browse services, explore the brand identity, and submit private appointment booking requests. Pure static build — no framework, no build tool, no backend. Open any .html file directly and it works.'
+    ],
+    stack: [
+      ['Markup', 'HTML5 (static, multi-page)'],
+      ['Styling', 'Tailwind CSS via CDN'],
+      ['Typography', 'Google Fonts — Cormorant Garamond (editorial serif) + Montserrat (sans-serif)'],
+      ['Interactivity', 'Vanilla JavaScript — form submission, success modal'],
+      ['Assets', 'Local images + Unsplash URLs, no build tool required'],
+    ],
+    highlights: [
+      'Editorial luxury brand identity — positioned in the style of Dior and Vogue',
+      'Cormorant Garamond + Montserrat type pairing for a high-fashion feel',
+      'Private appointment booking form with JS success modal',
+      'Multi-page static site: services, brand, treatments, booking',
+      'Zero install, zero build step — works by opening any HTML file directly'
+    ],
+    live: 'https://aqeelaroos.github.io/Eleve/',
+    github: 'https://github.com/AqeelAroos/Eleve'
   }
 };
 
